@@ -14,6 +14,19 @@
 }
 
 .nav-item {
-  padding-right: 40px;
+  padding-right: 48px;
+}
+
+.search-input {
+  width: 150px;
+  height: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.banner-area {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.83%, #1A1A1A), color-stop(53.12%, #2D2E30), color-stop(73.44%, #272729), to(#2C2E2E));
+  background: linear-gradient(180deg, #1A1A1A 20.83%, #2D2E30 53.12%, #272729 73.44%, #2C2E2E 100%);
 }
 /*# sourceMappingURL=style.css.map */
