@@ -23,10 +23,35 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 12px;
+}
+
+.bg-banner-area {
+  background: url(../img/Group.svg);
 }
 
 .banner-area {
+  text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(20.83%, #1A1A1A), color-stop(53.12%, #2D2E30), color-stop(73.44%, #272729), to(#2C2E2E));
   background: linear-gradient(180deg, #1A1A1A 20.83%, #2D2E30 53.12%, #272729 73.44%, #2C2E2E 100%);
+}
+
+.banner-area img {
+  margin-top: 71px;
+  margin-bottom: 71px;
+}
+
+.footer-menu {
+  background-color: #353536;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-item a {
+  color: #FFFF !important;
 }
 /*# sourceMappingURL=style.css.map */
